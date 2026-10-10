@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft glow halo behind main spark -->
+    <path
+        android:pathData="M54,34 C65,34 74,43 74,54 C74,65 65,74 54,74 C43,74 34,65 34,54 C34,43 43,34 54,34 Z"
+        android:fillColor="#30FFFFFF" />
+
+    <!-- Main Spark Star 4-Pointed Curved Diamond -->
+    <!-- (54,26) to (54,82) vertical, (26,54) to (82,54) horizontal -->
+    <path
+        android:pathData="M54,26 C54,41.5 66.5,54 82,54 C66.5,54 54,66.5 54,82 C54,66.5 41.5,54 26,54 C41.5,54 54,41.5 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF9ED" />
+                <item android:offset="0.3" android:color="#FFD6A5" />
+                <item android:offset="0.7" android:color="#FBC4AB" />
+                <item android:offset="1.0" android:color="#E8AEB7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core Diamond Highlight -->
+    <path
+        android:pathData="M54,38 C54,47 61,54 70,54 C61,54 54,61 54,70 C54,61 47,54 38,54 C47,54 54,47 54,38 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Top-Right Accent Sparkle -->
+    <path
+        android:pathData="M78,32 C78,35.5 80.5,38 84,38 C80.5,38 78,40.5 78,44 C78,40.5 75.5,38 72,38 C75.5,38 78,35.5 78,32 Z"
+        android:fillColor="#C1EDD2" />
+
+    <!-- Bottom-Left Accent Sparkle -->
+    <path
+        android:pathData="M31,69 C31,71.5 32.5,73 35,73 C32.5,73 31,74.5 31,77 C31,74.5 29.5,73 27,73 C29.5,73 31,71.5 31,69 Z"
+        android:fillColor="#E6DEFF" />
+
+    <!-- Tiny Starlight Dot -->
+    <path
+        android:pathData="M34,35 A2,2 0 1,0 34,39 A2,2 0 1,0 34,35 Z"
+        android:fillColor="#FFF4E0" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "SparkQuest",
+  "description": "Sensory-friendly, low-arousal ADHD quest and momentum tracker with zero-guilt streak shields and local vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
